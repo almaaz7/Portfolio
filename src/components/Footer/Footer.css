@@ -3,7 +3,7 @@
     align-items: center;
     margin: -0.5rem -3.5rem;
     position: relative;
-    margin-top: -7rem;
+    margin-top: -18rem;
   }
   .f-content {
     position: absolute;
@@ -22,6 +22,9 @@
   }
   
   @media screen and (max-width: 480px){
+    .f{
+      margin-top: -7rem;
+    }
     .f-content{
       transform: scale(.5);
     }

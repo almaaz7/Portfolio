@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 5rem;
     height: 30vh;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
     /* darkmode */
     color: var(--black);
   }
@@ -47,5 +47,6 @@
   @media screen and (max-width: 480px) {
       .experience{
           transform: scale(0.7);
+          gap: 3rem;
       }
   }

@@ -58,6 +58,7 @@
   .w-mainCircle > :nth-child(1) {
     top: -3rem;
     left: 6rem;
+    
   }
   .w-mainCircle > :nth-child(2) {
     left: -3rem;

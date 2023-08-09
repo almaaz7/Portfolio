@@ -15,10 +15,8 @@ const Services = () => {
         <div className="services" id='Services'>
             <div className="awesome">
                 <span style={{color: darkMode?"white":""}}>My Awesome</span>
-                <span>Services</span>
-                <spane>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    <br />
-                    Delectus sapi
+                <span>Projects</span>
+                <spane>Welcome to my project showcase! Below are some of the exciting projects<br/> I've had the privilege to work on. Each project represents a unique journey<br/> of creativity, innovation, and problem-solving. Take a look and explore the <br/>diverse range of skills and technologies<br/> I've applied.
                 </spane>
                 <a href={Resume} download>
                 <button className="button s-button">Download CV</button>
@@ -30,22 +28,25 @@ const Services = () => {
                 <div style={{left: '14rem'}}>
                 <Card
                     emoji={HeartEmoji}
-                    heading = {'Developer'}
-                    detail = {'Figma, sketch,PS, Adoobe,adfasdfasdfasdfasdfasdf'} 
+                    heading = {'AI image Generator'}
+                    detail = {'React, Tailwind CSS, Vite, NodeJS, ExpressJS, MongoDB, Git, JavaScript'} 
+                    link = {'https://dall-e-error-project.netlify.app/'}
                     />
                 </div>
                 <div style={{top:'12rem', left:'-4rem'}}>
                     <Card
                     emoji={Glasses}
-                    heading = {'Developer'}
-                    detail = {'Figma, sketch,PS, Adoobe,afdasdasdasdvasccasc'} 
+                    heading = {'Keeper'}
+                    detail = {'ReactJS, CSS, HTML, JavaScript, Git, Redux Toolkit, Axios'} 
+                    link={'https://keeper-error.netlify.app/'}
                     />
                 </div>
                 <div style={{top:'19rem', left:'12rem'}}>
                     <Card
                     emoji={Humble}
-                    heading = {'UI/Ux'}
-                    detail = {'Figma, sketch,PS, Adoobe,asdfasdfafawrgdbsdvbs'} 
+                    heading = {'RazorPay Clone'}
+                    detail = {'HTML, CSS'} 
+                    link={'https://razorpay-clone-error-project.netlify.app/'}
                     />
                 </div>
                 <div className='blur s-blur2' style={{background: 'var(--purple)'}}></div>

@@ -24,7 +24,7 @@ const Intro = () => {
                 <div className="i-name">
                     <span style={{color: darkMode?'white':''}}>Hi! i am</span>
                     <span>Almaaz Ahmed</span>
-                    <span>Front end developer with high level of experience in web desiging and deveopment, prodution, producting the quality work</span>
+                    <span>Front end developer with high level of experience in web desiging and deveopment, prodution, producing the quality work</span>
                 </div>
                 <button className="button i-button">Hire Me</button>
                 <div className="i-icons">
@@ -56,7 +56,7 @@ const Intro = () => {
                 transition={transition}
                 style={{ top: '18rem', left: '2rem' }}
                 className='floating-div'>
-                    <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award' />
+                    <FloatingDiv image={thumbup} txt1='Front End    ' txt2='Developer' />
                 </motion.div>
                 <div className='blur' style={{ background: 'rgb(238 210 255' }}>
 
