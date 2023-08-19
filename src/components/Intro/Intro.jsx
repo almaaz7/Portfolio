@@ -12,7 +12,7 @@ import glassesimoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/FloatingDiv';
 import { themeContext } from '../../Context';
 import {motion} from 'framer-motion';
-
+import { Link } from "react-scroll";
 
 const Intro = () => {
     const transition = {duration: 2, type: 'spring'}
@@ -22,15 +22,17 @@ const Intro = () => {
         <div className="intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span style={{color: darkMode?'white':''}}>Hi! i am</span>
+                    <span style={{color: darkMode?'white':''}}>Hi! I am</span>
                     <span>Almaaz Ahmed</span>
                     <span>Front end developer with high level of experience in web desiging and deveopment, prodution, producing the quality work</span>
                 </div>
+                <Link to="contact" spy={true} smooth={true}>
                 <button className="button i-button">Hire Me</button>
+                </Link>
                 <div className="i-icons">
-                    <img src={Github} alt="" />
-                    <img src={LinkedIn} alt="" />
-                    <img src={Instagram} alt="" />
+                    <a href="https://github.com/almaaz7"><img src={Github} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/almaazahmed/"><img src={LinkedIn} alt="" /></a>
+                    <a href="https://www.instagram.com/_almaaz11/"><img src={Instagram} alt="" /></a>
                 </div>
             </div>
             <div className="i-right">

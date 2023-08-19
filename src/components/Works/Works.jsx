@@ -12,6 +12,7 @@ import node from '../../img/node.png'
 // import Facebook from '../../img/Facebook.png'
 import { themeContext } from '../../Context'
 import {motion} from 'framer-motion';
+import { Link } from "react-scroll";
 
 
 const Works = () => {
@@ -29,8 +30,9 @@ const Works = () => {
                     here's a glimpse into my journey through the dynamic<br />
                     landscape of technology.
                 </spane>
-
+                <Link to="contact" spy={true} smooth={true}>
                 <button className="button s-button">Hire Me</button>
+                </Link>
 
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
             </div>
