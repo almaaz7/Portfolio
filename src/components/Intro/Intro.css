@@ -78,8 +78,8 @@
 }
 
 .i-right>:nth-child(3){
-    transform: scale(1.4);
-    left: 28%;
+    transform: scale(0.7);
+    bottom: 20%;
 }
 
 .i-right>:nth-child(4){
